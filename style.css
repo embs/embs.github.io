@@ -1,0 +1,15 @@
+body {
+  max-width: 845px;
+}
+
+p {
+  max-width: 600px;
+}
+
+.aside {
+  float: left;
+}
+
+.main {
+  float: right;
+}
