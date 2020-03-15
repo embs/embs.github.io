@@ -1,15 +1,67 @@
 body {
-  max-width: 845px;
+  margin: 10px auto;
+  max-width: 800px;
+  min-width: 460px;
+
+  background-color: #404040;
+  background-image: url("texture.png");
 }
 
-p {
-  max-width: 600px;
+a {
+  color: #404040;
+  font-family: Fantasy;
+  font-style: normal;
 }
 
-.aside {
-  float: left;
+a:focus,
+a:hover {
+  text-shadow: 0 0 .1px #404040;
 }
 
-.main {
-  float: right;
+h1 {
+  margin-bottom: 0;
+}
+
+.avatar_image {
+  width: 230px;
+
+  border-radius: 50%;
+}
+
+.avatar_wrapper {
+  width: 230px;
+  margin: auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro_info {
+  text-align: center;
+}
+
+.news {
+  border-collapse: collapse;
+}
+
+.news td, th {
+  padding: 10px;
+}
+
+.news tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.page {
+  padding: 30px 80px;
+  margin: 0 10px;
+
+  background-color: white;
+  box-shadow: 0 0 10px black;
+}
+
+.page + .page {
+  margin-top: 10px;
 }
